@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int somar(){
+int subtrair(){
     int pN;
     int sN;
     
@@ -11,14 +11,14 @@ int somar(){
     printf("Digite o valor do segundo numero : \n");
     scanf("%d", &sN);
 
-    int soma = pN + sN;
+    int diminuir = pN - sN;
     
-    printf("Soma dos valores %d" , soma);
+    printf("Soma dos valores %d" , diminuir);
     
 }
 
 int main(){
-    somar();
+    subtrair();
 
     return 0;
 };
